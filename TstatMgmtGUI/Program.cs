@@ -11,6 +11,7 @@ namespace TstatMgmtGUI
     {
         static void Main(string[] args)
         {
+            //Testing
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FindAvailableNetworks());
