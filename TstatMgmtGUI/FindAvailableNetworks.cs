@@ -23,10 +23,10 @@ namespace TstatMgmtGUI
 
         private static bool StartsWithThermostat(Network n)
         {
-            if (n.NetworkSSID.ToLower().StartsWith("thermostat-"))
+            //if (n.NetworkSSID.ToLower().StartsWith("thermostat-"))
             //if (n.NetworkSSID.ToLower().StartsWith("tran"))
                 return true;
-            else return false;
+            //else return false;
         }
 
         private void btnJoinNetwork_Click(object sender, EventArgs e)

@@ -82,8 +82,8 @@ namespace Facade
                                 <name>{0}</name>                                
                             </SSID>
                         </SSIDConfig>
-                        <connectionType>ESS</connectionType>
-                        <connectionMode>auto</connectionMode>
+                        <connectionType>IBSS</connectionType>
+                        <connectionMode>manual</connectionMode>
                         <autoSwitch>false</autoSwitch>
                         <MSM>
                             <security>
@@ -94,8 +94,7 @@ namespace Facade
                                 </authEncryption>
                             </security>
                         </MSM>
-                    </WLANProfile>", ssid);   
-
+                    </WLANProfile>", ssid);
 
                 intfc.SetProfile(Wlan.WlanProfileFlags.AllUser, profileXml, true);
 

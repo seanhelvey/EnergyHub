@@ -42,6 +42,12 @@ namespace TstatMgmtGUI
             {
                 label1.Text = ex.Message;
             }
+        }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            FindAvailableNetworks fin = new FindAvailableNetworks();
+            fin.Show();
         }       
     }
 }
